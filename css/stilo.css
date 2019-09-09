@@ -1,0 +1,307 @@
+	html {
+		scroll-behavior: smooth;
+	}
+
+	body  {
+		padding: 0px;
+		margin:0px;
+		background-color: #050505;
+		
+	}
+
+		.logo {
+		padding-top: 20px;
+	}
+	nav{
+		text-align: right;
+	}
+
+	nav ul li {
+		display: inline-block;
+		list-style: none;
+		margin-right: 12px;
+	}
+
+	nav ul li a{
+		color: #FFFF00;
+		font-weight: bold;
+		font-family: arial;
+		font-size: 14px;
+		line-height: 20px;
+		text-transform: uppercase;
+		text-decoration: none;
+		letter-spacing: 0.50px;
+		padding: 8px;
+	}
+
+	nav ul li a:hover {
+
+		color: white;
+		transition: all 1s ease;
+	}
+
+	.cabecalho {
+		background: url(../img/intro-bg.jpg) center no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 500px;
+
+	}
+		.intro {
+
+		padding-top: 130px;
+		color: white;
+		text-align: center;
+		text-transform: uppercase;
+		font-family: georgia;
+		letter-spacing: 1px;
+		font-size: 50px;
+		font-weight: normal;
+	}
+	.intro2 {
+		width: 600px;
+		margin:0 auto;
+		padding-top: 25px;
+		color: white;
+		text-align: center;
+		text-transform:capitalize;
+		font-family: georgia;
+		letter-spacing: 1px;
+		font-size: 26px;
+		font-weight: normal;
+		border-top: 2px solid #FFFF00;
+	}
+
+	.btn {
+		width: 140px;
+		height: 40px;
+		border:2px solid white;
+		background-color: black;
+		margin: 0 auto;
+		font-size: 18px;
+		font-family: georgia;
+		 font-weight: bold;
+		 line-height: 24px;
+		 text-align: center;
+		 padding-top: 4px;
+		 margin-top: 30px;
+	}
+
+	section p {
+		color: white;
+		font-family: Georgia;
+		font-size: 14px;
+		font-weight: normal;
+		line-height: 24px;
+		letter-spacing: 0.9px;
+		text-indent: 5%;
+	} 
+
+	section h2 {
+		color: white;
+		text-align: center;
+	}
+
+	
+
+
+	a{
+		text-decoration: none;
+	}
+
+	a p{
+		color: white;
+	}
+
+	header a p:hover {
+
+		color: #FFFF00;
+		transition: all 1s ease;
+	}
+
+
+
+	/* 
+	===========================FIM DE CANEÇALHO ========================
+	====================================================================*/
+
+
+
+	/* 
+	===========================INÍCIO DO CORPO DO SITE ========================
+	===========================================================================*/
+
+	.titulo {
+		color: white;
+		text-align: center;
+		padding-bottom: 10px;
+		padding-top: 10px;
+		font-family: georgia;
+		font-size: 30px;
+		line-height: 38px;
+		text-transform: uppercase;
+		margin-top: 90px;
+		border-left: 10px solid #FFFF00;
+		border-right: 10px solid #FFFF00;
+		letter-spacing: 2px;
+		background-color: #1c1c1c;
+		margin-bottom: 60px;
+	}
+
+	.equipe {
+		color: #FFFF00;
+		font-weight: bold;
+	}
+	a p:hover {
+		color: white;
+	}
+
+
+	a h2:hover {
+
+		color: gray;
+		transition: all 1s ease;
+	}
+
+	a img:hover {
+		opacity: 0.5;
+	}
+
+	.serves li h2 {
+
+		color: #FFFF00;
+	}
+
+	.serves li {
+		text-align: center;
+	}
+
+	.ser {
+		color: white;
+	}
+
+	.manutencao {
+		background-color: #303030;
+		padding-top: 20px;
+		padding-bottom: 20px; 
+	}
+
+	.hospedagem, .cricao {
+		padding-bottom: 20px;
+		padding-top: 20px;
+	}
+
+	.hospedagem:hover, .cricao:hover {
+		background-color: #303030;
+	}
+
+	section ul a li {
+		list-style: none;
+
+	}
+
+	section ul a li img:hover {
+
+		transition: all 1s ease;
+		transform: scale(1.1);
+	}
+
+/* 
+	===========================FORMATAÇÃO DO FORMULÁRIO  ========================
+	=============================================================================*/
+
+	label {
+		color: #FFFF00;
+		font-size: 18px;
+		font-family: Georgia;
+	}
+	input,textarea {
+		padding: 10px;
+		margin: 10px;
+		width: 100%;
+		border: 2px solid #FFFF00;
+		background-color: #303030;
+		color: white;
+	}
+
+	.btnSubmit {
+		background-color: #FFFF00;
+		margin-bottom: 30px;
+		color: black;
+		font-weight: bold;
+		font-size: 18px;
+		font-family: Georgia;
+	}
+
+	h3{
+		color: #FFFF00;
+	}
+
+	#rodape {
+		background-color: #303030;
+		height: 90px;
+		color: white;
+	}
+
+	
+	#rodape ul li  {
+
+		display: inline-block;
+		padding: 10px;
+		text-align: center;
+	}
+	
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+.intro, .intro2, .btn , .titulo {
+	opacity: 0;
+}
+
+section a .btn:hover {
+	color: #FFFF00;
+}
+
+section .contacto {
+	margin:0 auto;
+}

@@ -1,0 +1,67 @@
+ul li {
+	color: white;
+	list-style: none;
+}
+
+
+
+ .skill {
+	background-color: #303030;
+}
+
+.dados {
+	text-align: left;
+	color: gray;
+
+}
+
+.habilidades {
+	text-align: left;
+	color: gray;
+	padding-top: 20px;
+}
+
+.azul {
+	width:90%;
+	height: 10px;
+	background-color: #050505;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+.html {
+	width: 89%;
+	height: 10px;
+	background-color: #FFFF00;
+}
+
+.css {
+	width: 89%;
+	height: 10px;
+	background-color: #FFFF00;
+}
+.php {
+	width: 78%;
+	height: 10px;
+	background-color: #FFFF00;
+}
+.javascript {
+	width: 68%;
+	height: 10px;
+	background-color: #FFFF00;
+}
+
+.about {
+	font-family: Georgia;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: normal;
+
+}
+
+.cabecalho {
+	background: url(../img/bg.jpg) center no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 480px;
+}
+
